@@ -35,6 +35,9 @@ func (s secretAgent) speak() {
 	fmt.Println(s.firstName, s.lastName, "is hurt but alive")
 }
 
+// Method is differnt from a func, the syntax for mtd is
+// func (r ReceiverType) funcName(parameters) (results)   example below
+
 func main() {
 
 	//calculating using the fnc and struct
